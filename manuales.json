@@ -1,0 +1,130 @@
+[
+  {
+    "id": "ajax-hub2",
+    "marca": "Ajax",
+    "modelo": "Hub 2",
+    "categoria": "Alarmas",
+    "tipo": "Panel de control",
+    "descripcion": "Panel de control inteligente con soporte para verificación visual de alarmas.",
+    "tags": ["Ajax", "Hub 2", "Panel", "Alarma", "Inalámbrico", "Foto"],
+    "documentos": {
+      "manual": "manuales/alarmas/ajax/hub-2/manual.pdf",
+      "instalacion": "manuales/alarmas/ajax/hub-2/instalacion.pdf",
+      "ficha": "manuales/alarmas/ajax/hub-2/ficha.pdf",
+      "firmware": null
+    },
+    "fabricante": "https://ajax.systems/es/"
+  },
+  {
+    "id": "ajax-doorprotect",
+    "marca": "Ajax",
+    "modelo": "DoorProtect",
+    "categoria": "Alarmas",
+    "tipo": "Contacto magnético",
+    "descripcion": "Detector de apertura inalámbrico para puertas y ventanas.",
+    "tags": ["Ajax", "DoorProtect", "Magnético", "Sensor", "Apertura"],
+    "documentos": {
+      "manual": "manuales/alarmas/ajax/doorprotect/manual.pdf",
+      "instalacion": null,
+      "ficha": "manuales/alarmas/ajax/doorprotect/ficha.pdf",
+      "firmware": null
+    },
+    "fabricante": "https://ajax.systems/es/"
+  },
+  {
+    "id": "risco-lightsys-plus",
+    "marca": "Risco",
+    "modelo": "LightSYS+",
+    "categoria": "Alarmas",
+    "tipo": "Panel híbrido",
+    "descripcion": "Sistema de seguridad híbrido profesional para instalaciones comerciales y residenciales.",
+    "tags": ["Risco", "LightSYS+", "Híbrido", "Panel", "Cableado", "Inalámbrico"],
+    "documentos": {
+      "manual": "manuales/alarmas/risco/lightsys-plus/manual.pdf",
+      "instalacion": "manuales/alarmas/risco/lightsys-plus/instalacion.pdf",
+      "ficha": null,
+      "firmware": null
+    },
+    "fabricante": "https://www.riscogroup.com/"
+  },
+  {
+    "id": "dahua-nvr5208-e12",
+    "marca": "Dahua",
+    "modelo": "DHI-NVR5208-E12",
+    "categoria": "CCTV",
+    "tipo": "NVR",
+    "descripcion": "Grabador de vídeo en red de 8 canales con inteligencia artificial.",
+    "tags": ["Dahua", "NVR", "8 canales", "CCTV", "Grabador", "IP"],
+    "documentos": {
+      "manual": "manuales/cctv/dahua/nvr5208/manual.pdf",
+      "instalacion": "manuales/cctv/dahua/nvr5208/instalacion.pdf",
+      "ficha": "manuales/cctv/dahua/nvr5208/ficha.pdf",
+      "firmware": null
+    },
+    "fabricante": "https://www.dahuasecurity.com/"
+  },
+  {
+    "id": "hikvision-ds7608",
+    "marca": "Hikvision",
+    "modelo": "DS-7608NI-K2",
+    "categoria": "CCTV",
+    "tipo": "NVR",
+    "descripcion": "Grabador de vídeo en red 4K de 8 canales.",
+    "tags": ["Hikvision", "NVR", "8 canales", "CCTV", "Grabador", "4K"],
+    "documentos": {
+      "manual": "manuales/cctv/hikvision/ds7608/manual.pdf",
+      "instalacion": null,
+      "ficha": "manuales/cctv/hikvision/ds7608/ficha.pdf",
+      "firmware": null
+    },
+    "fabricante": "https://www.hikvision.com/"
+  },
+  {
+    "id": "ezviz-hp7",
+    "marca": "EZVIZ",
+    "modelo": "HP7",
+    "categoria": "Videoporteros",
+    "tipo": "Videoportero Inteligente",
+    "descripcion": "Videoportero doméstico inteligente de 2 hilos con pantalla táctil.",
+    "tags": ["EZVIZ", "Videoportero", "Intercomunicador", "Pantalla", "HP7"],
+    "documentos": {
+      "manual": "manuales/videoporteros/ezviz/hp7/manual.pdf",
+      "instalacion": "manuales/videoporteros/ezviz/hp7/instalacion.pdf",
+      "ficha": "manuales/videoporteros/ezviz/hp7/ficha.pdf",
+      "firmware": null
+    },
+    "fabricante": "https://www.ezviz.com/"
+  },
+  {
+    "id": "tplink-sg1006pp",
+    "marca": "TP-Link",
+    "modelo": "TL-SG1006PP",
+    "categoria": "Redes",
+    "tipo": "Switch PoE",
+    "descripcion": "Switch de escritorio Gigabit de 6 puertos con 4 puertos PoE+.",
+    "tags": ["TP-Link", "Switch", "PoE", "Redes", "Gigabit", "6 puertos"],
+    "documentos": {
+      "manual": "manuales/redes/tp-link/sg1006pp/manual.pdf",
+      "instalacion": null,
+      "ficha": "manuales/redes/tp-link/sg1006pp/ficha.pdf",
+      "firmware": null
+    },
+    "fabricante": "https://www.tp-link.com/"
+  },
+  {
+    "id": "ubiquiti-cloudkey",
+    "marca": "Ubiquiti",
+    "modelo": "Cloud Key Gen2",
+    "categoria": "Redes",
+    "tipo": "Controlador de red",
+    "descripcion": "Controlador de hardware integrado para la gestión de redes UniFi.",
+    "tags": ["Ubiquiti", "UniFi", "Cloud Key", "Controlador", "Redes"],
+    "documentos": {
+      "manual": "manuales/redes/ubiquiti/cloudkey/manual.pdf",
+      "instalacion": "manuales/redes/ubiquiti/cloudkey/instalacion.pdf",
+      "ficha": null,
+      "firmware": null
+    },
+    "fabricante": "https://ui.com/"
+  }
+]
