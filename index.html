@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Biblioteca Técnica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0d1b2a">
+</head>
+<body>
+    <!-- CABECERA -->
+    <header>
+        <div class="logo-container">
+            <!-- Preparado para sustituir por una imagen: <img src="iconos/logo.png" alt="Logo"> -->
+            <h1 class="logo-text">BT</h1>
+            <div class="logo-title">BIBLIOTECA TÉCNICA</div>
+        </div>
+        <button id="theme-toggle" aria-label="Cambiar modo oscuro">☀️ / 🌙</button>
+    </header>
+
+    <!-- BUSCADOR -->
+    <section class="search-section">
+        <input type="text" id="search-input" placeholder="🔎 Buscar marca, modelo, referencia o equipo...">
+    </section>
+
+    <!-- FILTROS Y NAVEGACIÓN -->
+    <nav class="filters-section">
+        <div class="categories" id="categories-container">
+            <button class="cat-btn active" data-cat="all">Todas</button>
+            <button class="cat-btn" data-cat="Alarmas">🔔 Alarmas</button>
+            <button class="cat-btn" data-cat="CCTV">📹 CCTV</button>
+            <button class="cat-btn" data-cat="Redes">🌐 Redes</button>
+            <button class="cat-btn" data-cat="Control de Acceso">🚪 Control de acceso</button>
+            <button class="cat-btn" data-cat="Videoporteros">📞 Videoporteros</button>
+            <button class="cat-btn" data-cat="Electricidad">⚡ Electricidad</button>
+            <button class="cat-btn" data-cat="Otros">🔧 Otros</button>
+        </div>
+        
+        <div class="secondary-filters">
+            <select id="brand-select">
+                <option value="all">Todas las marcas</option>
+                <!-- Opciones generadas dinámicamente -->
+            </select>
+            <button id="btn-favorites" class="filter-btn">⭐ Mis Favoritos</button>
+            <button id="btn-history" class="filter-btn">🕘 Historial</button>
+        </div>
+    </nav>
+
+    <!-- CONTENEDOR PRINCIPAL DE RESULTADOS -->
+    <main>
+        <h2 id="section-title">Todos los equipos</h2>
+        <div id="results-grid" class="grid">
+            <!-- Las tarjetas se generan aquí -->
+        </div>
+    </main>
+
+    <!-- MODAL DE FICHA TÉCNICA -->
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <div id="modal-body">
+                <!-- Contenido generado dinámicamente -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
