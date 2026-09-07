@@ -8,13 +8,14 @@
     "descripcion": "Panel de control inteligente con soporte para verificación visual de alarmas.",
     "tags": ["Ajax", "Hub 2", "Panel", "Alarma", "Inalámbrico", "Foto"],
     "documentos": {
-      "manual": "manuales/alarmas/ajax/hub-2/manual.pdf",
-      "instalacion": "manuales/alarmas/ajax/hub-2/instalacion.pdf",
-      "ficha": "manuales/alarmas/ajax/hub-2/ficha.pdf",
+      "manual": "manuales/alarmas/ajax/hub-2/manual-hub-2.pdf",
+      "instalacion": null,
+      "ficha": null,
       "firmware": null
     },
     "fabricante": "https://ajax.systems/es/"
-  },
+  }
+]
   {
     "id": "ajax-doorprotect",
     "marca": "Ajax",
